@@ -8,14 +8,19 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "24.0.0.0",
+  "application": "23.0.0.0",
   "supportedLocales": [
     "en-US",
     "de-DE",
     "de-AT",
     "de-CH"
   ],
-  "target": "Cloud",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50500
+    }
+  ],
   "runtime": "12.1",
   "features": [
     "TranslationFile",

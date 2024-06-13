@@ -2,14 +2,13 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Your own server",
+            "name": "lan-navbc24",
             "request": "launch",
             "type": "al",
             "environmentType": "OnPrem",
-            "server": "http://localhost",
-            "serverInstance": "BC240",
+            "server": "http://lan-navbc24",
+            "serverInstance": "BC24GLDE",
             "authentication": "Windows",
-            "port": 8049,
             "breakOnError": "All",
             "launchBrowser": false,
             "enableLongRunningSqlStatements": true,
